@@ -1,0 +1,127 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #fff;
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}   
+
+body{
+    background-color: #333;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    margin: 0 20px;
+}
+
+.container{
+    width: 40%;
+    height: min-content;
+    background-color: #447960;
+    padding: 28px;
+    border-radius: 15px;
+}
+
+.serch-box{
+    width: 100%;
+    height: min-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #447960;
+}
+
+.serch-box input{
+    width: 85%;
+    text-transform: capitalize;
+    background-color: #bbf0d7;
+    color: #0b1a13;
+    border-radius: 14px;
+    padding: 12px 16px;
+} 
+
+.serch-box button{
+    width: 48px;
+    height: 46px;
+    background-color: #bbf0d7;
+    color: #0b1a13; 
+    border-radius: 50%;
+    cursor: pointer;
+}  
+
+/* ===================================================================== */
+
+.weather-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    background-color: #69b994;
+    border-radius: 15px;
+
+}
+
+.weather-body img{
+    width: 150px;
+}
+
+.weather-box{
+    margin: 20px;
+    text-align: center;
+}
+
+.weather-box .tempreture{
+    font-size: 40px;
+    font-weight: bold;
+    /* position: relative; */
+}
+
+.weather-box .discription{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+/* ======================================================================================== */
+
+
+.weather-details{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+    padding: 0 20px;
+
+}
+
+.humidity, .wind{
+    display: flex;
+    align-items: center;
+
+}
+
+.weather-details i{
+    font-size: 36px;
+
+}
+
+.weather-details .text{
+ /* color: red; */
+ margin-left: 20px;
+ font-size: 16px;
+}
+
+.text span{
+    font-size: 30px; 
+    font-weight: bold;
+} 
+
